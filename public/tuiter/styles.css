@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: white;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 12px;
+    font-family: Helvetica;
+}
+
+.wd-div-dimensions {
+    padding-top: 12px;
+    padding-bottom: 15px;
+}
+
+.wd-horizontal-line {
+    height: 1px;
+    border: none;
+    background-color: rgb(38, 39, 40);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.wd-float-done {
+    clear: both;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-float-right {
+    float: right;
+}
+
+.wd-tiny-grey-text {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
