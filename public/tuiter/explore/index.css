@@ -95,5 +95,132 @@
     margin-right: 16px;
 }
 
+.wd-tuiter-button {
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: rgb(29 161 242);
+    border-color: rgb(29 161 242);
+}
+
+.wd-follow-button {
+    border-radius: 25px;
+    border-color: white;
+    background-color: white;
+    color: rgba(23,23,28,255);
+    font-weight: bold;
+}
+
+.wd-follow-avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.form-control {
+    border-color: #222226;
+    background-color: #222226;
+    color: #60666d;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    border-radius: 25px;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.wd-top-spacing {
+    margin-top: 10px;
+}
+
+.nav-link {
+    color: #636a70;
+}
+
+.nav-link.active{
+    color: white;
+    
+}
+
+.wd-nav-active-border {
+    border-style: solid;
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: black;
+    border-bottom-color: rgb(29 161 242);
+    border-bottom-width: 3px;
+}
+
+.wd-text-grey {
+    color: rgb(110, 118, 125);
+}
+
+.wd-for-you-posts-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    margin-left: 16px;
+}
+
+.card-body {
+    border: solid;
+    border-color: rgba(0,0,0,.125);
+    border-width: 1px;
+}
+
+.card-title {
+    color: white;
+}
+
+.list-group-item {
+    background-color: black;
+    color: white;
+}
+
+.list-group-item.active{
+    background-color: black;
+    border: none;
+}
+
+.wd-group-list-height {
+    height: 50px;
+}
+
+.wd-list-group-who-to-follow {
+    background-color: rgba(23,23,28,255);
+}
+
+.wd-times-avatar {
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    padding-right: 5px;
+}
+
+.wd-saturn {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    padding-left: 5px;
+
+}
+
+.wd-border-center {
+    border: solid;
+    border-width: 0.5px;
+    border-color: #53595f;
+    border-top-color: black;
+    border-bottom-color: black;
+}
 
 
