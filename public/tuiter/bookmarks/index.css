@@ -2,27 +2,8 @@
     font-size: 20px;
 }
 
-.wd-border {
-    padding-top: 12px;
-    padding-bottom: 15px;
-    padding-left: 16px;
-    border: solid;
-    border-color: rgb(47, 51, 54);
-    border-width: 0.8px;
-}
-
 .wd-bookmarks-title {
     padding-bottom: 12px;
-}
-
-.wd-avatar {
-    border-radius: 50%;
-    width: 48px;
-}
-
-.wd-name {
-    margin-left: 12px;
-    font-size: 15px;
 }
 
 .wd-handle {
@@ -40,19 +21,17 @@
     width: 504px;
     height: 264px;
     margin-left: 12px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    border: solid;
-    border-color: rgb(38, 39, 40);
+    border: solid rgb(38, 39, 40);
 }
 
 .wd-bookmark-picture-content {
-    border: solid;
     width: 480px;
     margin-top: -5px;
     margin-left: 12px;
-    border-color: rgb(38, 39, 40);
+    border: solid rgb(38, 39, 40);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     padding: 12px;
