@@ -13,7 +13,7 @@ const NavigationSidebar = (active) => {
                         </div>
                     </div>
                 </a>
-                <a href="../explore/index.html" class="list-group-item list-group-item-action active">
+                <a href="../exploreOld/index.html" class="list-group-item list-group-item-action active">
                     <div class="row">
                         <div class="col-2">
                             <i class="fa fa-hashtag wd-float-left" style="margin-top: 2.5px; margin-right: 10px;"></i>
@@ -23,7 +23,7 @@ const NavigationSidebar = (active) => {
                         </div>
                     </div>
                 </a>
-                <a href="../explore/notifications.html" class="list-group-item list-group-item-action">
+                <a href="../exploreOld/notifications.html" class="list-group-item list-group-item-action">
                     <div class="row">
                         <div class="col-2">
                             <i class="fa fa-bell wd-float-left" style="margin-top: 2.5px; margin-right:10px;"></i>
@@ -33,7 +33,7 @@ const NavigationSidebar = (active) => {
                         </div>
                     </div> 
                 </a>
-                <a href="../explore/messages.html" class="list-group-item list-group-item-action">
+                <a href="../exploreOld/messages.html" class="list-group-item list-group-item-action">
                     <div class="row">
                         <div class="col-2">
                             <i class="fa fa-envelope wd-float-left" style="margin-top: 2.5px; margin-right: 10px;"></i>
@@ -53,7 +53,7 @@ const NavigationSidebar = (active) => {
                         </div>
                     </div>
                 </a>
-                <a href="../explore/lists.html" class="list-group-item list-group-item-action">
+                <a href="../exploreOld/lists.html" class="list-group-item list-group-item-action">
                     <div class="row">
                         <div class="col-2">
                             <i class="fa fa-list wd-float-left" style="margin-top: 2.5px; margin-right: 10px;"></i>
@@ -63,7 +63,7 @@ const NavigationSidebar = (active) => {
                         </div>
                     </div>
                 </a>
-                <a href="../explore/profile.html" class="list-group-item list-group-item-action">
+                <a href="../exploreOld/profile.html" class="list-group-item list-group-item-action">
                     <div class="row">
                         <div class="col-2">
                             <i class="fa fa-user wd-float-left" style="margin-top: 2.5px; margin-right: 10px;"></i> 
@@ -73,7 +73,7 @@ const NavigationSidebar = (active) => {
                         </div>
                     </div>
                 </a>
-                <a href="../explore/more.html" class="list-group-item list-group-item-action">
+                <a href="../exploreOld/more.html" class="list-group-item list-group-item-action">
                     <div class="row">
                         <div class="col-2">
                             <i class="fa fa-ellipsis-h wd-float-left" style="margin-top: 2.5px; margin-right: 10px;"></i>
@@ -105,7 +105,7 @@ const NavigationSidebar = (active) => {
                         </div>
                     </div>
                 </a>
-                <a href="../explore/index.html" class="list-group-item list-group-item-action">
+                <a href="../exploreOld/index.html" class="list-group-item list-group-item-action">
                     <div class="row">
                         <div class="col-2">
                             <i class="fa fa-hashtag wd-float-left" style="margin-top: 2.5px; margin-right: 10px;"></i>
@@ -115,7 +115,7 @@ const NavigationSidebar = (active) => {
                         </div>
                     </div>
                 </a>
-                <a href="../explore/notifications.html" class="list-group-item list-group-item-action">
+                <a href="../exploreOld/notifications.html" class="list-group-item list-group-item-action">
                     <div class="row">
                         <div class="col-2">
                             <i class="fa fa-bell wd-float-left" style="margin-top: 2.5px; margin-right:10px;"></i>
@@ -125,7 +125,7 @@ const NavigationSidebar = (active) => {
                         </div>
                     </div> 
                 </a>
-                <a href="../explore/messages.html" class="list-group-item list-group-item-action">
+                <a href="../exploreOld/messages.html" class="list-group-item list-group-item-action">
                     <div class="row">
                         <div class="col-2">
                             <i class="fa fa-envelope wd-float-left" style="margin-top: 2.5px; margin-right: 10px;"></i>
@@ -145,7 +145,7 @@ const NavigationSidebar = (active) => {
                         </div>
                     </div>
                 </a>
-                <a href="../explore/lists.html" class="list-group-item list-group-item-action">
+                <a href="../exploreOld/lists.html" class="list-group-item list-group-item-action">
                     <div class="row">
                         <div class="col-2">
                             <i class="fa fa-list wd-float-left" style="margin-top: 2.5px; margin-right: 10px;"></i>
@@ -155,7 +155,7 @@ const NavigationSidebar = (active) => {
                         </div>
                     </div>
                 </a>
-                <a href="../explore/profile.html" class="list-group-item list-group-item-action">
+                <a href="../exploreOld/profile.html" class="list-group-item list-group-item-action">
                     <div class="row">
                         <div class="col-2">
                             <i class="fa fa-user wd-float-left" style="margin-top: 2.5px; margin-right: 10px;"></i> 
@@ -165,7 +165,7 @@ const NavigationSidebar = (active) => {
                         </div>
                     </div>
                 </a>
-                <a href="../explore/more.html" class="list-group-item list-group-item-action">
+                <a href="../exploreOld/more.html" class="list-group-item list-group-item-action">
                     <div class="row">
                         <div class="col-2">
                             <i class="fa fa-ellipsis-h wd-float-left" style="margin-top: 2.5px; margin-right: 10px;"></i>
