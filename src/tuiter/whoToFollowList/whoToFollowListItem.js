@@ -5,7 +5,7 @@ const WhoToFollowListItem = ({
                                  who = { userName: 'NASA', handle: 'NASA', avatarIcon: 'nasa.png' }
                              }) => {
     return (
-        <li className="list-group-item wd-list-group-who-to-follow ">
+        <li className="list-group-item">
             <div className="row">
                 <div className="col-2 col-sm-3 col-md-3 col-lg-3 col-xl-2 align-self-center">
                     <img className="rounded-circle" width={50} src={`/images/${who.avatarIcon}`} alt=""/>

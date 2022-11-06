@@ -2,7 +2,6 @@ import React from "react";
 import './../styles.css';
 import {useLocation} from "react-router";
 import {Link} from "react-router-dom";
-import explorePage from "../explore";
 
 const NavigationSidebar = () => {
     const {pathname} = useLocation();
@@ -22,7 +21,7 @@ const NavigationSidebar = () => {
                     </div>
                 </a>
                 <Link to="/tuiter/home" className={`list-group-item list-group-item-action 
-                    ${active === 'home'?'active':''}`}>
+                    ${active === '' ?'active':''} ${active === 'home' ?'active':''}`}>
                     <div className="row">
                         <div className="col-2">
                             <i className="bi bi-house-door-fill wd-float-left"></i>
@@ -40,6 +39,17 @@ const NavigationSidebar = () => {
                         </div>
                         <div className="col-2 d-none d-sm-none d-md-none d-lg-block">
                             Explore
+                        </div>
+                    </div>
+                </Link>
+                <Link to="/*" className={`list-group-item list-group-item-action 
+                    ${active === 'labs'?'active':''}`}>
+                    <div className="row">
+                        <div className="col-2">
+                            <i className="bi bi-asterisk wd-float-left"></i>
+                        </div>
+                        <div className="col-2 d-none d-sm-none d-md-none d-lg-block">
+                            Labs
                         </div>
                     </div>
                 </Link>
@@ -87,7 +97,7 @@ const NavigationSidebar = () => {
                         </div>
                     </div>
                 </a>
-                <a className={`list-group-item list-group-item-action 
+                <Link to="/tuiter/profile" className={`list-group-item list-group-item-action 
                     ${active === 'profile'?'active':''}`}>
                     <div className="row">
                         <div className="col-2">
@@ -97,7 +107,7 @@ const NavigationSidebar = () => {
                             Profile
                         </div>
                     </div>
-                </a>
+                </Link>
                 <a className={`list-group-item list-group-item-action 
                     ${active === 'more'?'active':''}`}>
                     <div className="row">
