@@ -21,7 +21,7 @@ const NavigationSidebar = () => {
                     </div>
                 </a>
                 <Link to="/tuiter/home" className={`list-group-item list-group-item-action 
-                    ${active === '' ?'active':''} ${active === 'home' ?'active':''}`}>
+                    ${ active ?'':'active'} ${active === 'home' ?'active':''}`}>
                     <div className="row">
                         <div className="col-2">
                             <i className="bi bi-house-door-fill wd-float-left"></i>
