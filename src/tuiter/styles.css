@@ -61,8 +61,8 @@ body {
 
 /*Posts*/
 .wd-avatar {
-    border-radius: 48%;
-    width: 48px;
+    border-radius: 50%;
+    width: 50px;
 }
 
 .wd-name {
@@ -87,13 +87,6 @@ body {
     border: none rgb(47, 51, 54);
     border-bottom-style: solid;
     border-radius: 20px;
-}
-
-.wd-icons-text {
-    text-decoration: none;
-    color: rgb(110, 118, 125);
-    padding-left: 8px;
-    padding-right: 100px;
 }
 
 .wd-post-summary-spacing {
@@ -127,7 +120,7 @@ body {
     text-decoration: none;
     color: rgb(110, 118, 125);
     padding-left: 8px;
-    padding-right: 30px;
+    padding-right: 60px;
 }
 
 .wd-edit-profile-spacing {

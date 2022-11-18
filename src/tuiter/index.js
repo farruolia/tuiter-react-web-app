@@ -13,7 +13,7 @@ import EditProfile from "./profile/editProfile";
 import React from "react";
 
 const store = configureStore({
-    reducer: {who: whoReducer, tuits: tuitsReducer, profile: profileReducer}
+    reducer: {who: whoReducer, tuitsData: tuitsReducer, profile: profileReducer}
 });
 
 function Tuiter() {
