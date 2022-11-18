@@ -3,6 +3,8 @@ import axios from 'axios';
 // location of HTTP services
 //const TUITS_API = 'http://localhost:4000/api/tuits';
 //const TUITS_API = 'https://farruolia-tuiter-node-server.herokuapp.com/api/tuits';
+// If run locally, it will take local environment variable which is REACT_APP_API_BASE = 'http://localhost:4000/api/tuits'
+// else REACT_APP_API_BASE = 'https://farruolia-tuiter-node-server.herokuapp.com/api/tuits'
 const API_BASE = process.env.REACT_APP_API_BASE;
 const TUITS_API = `${API_BASE}/tuits`;
 
